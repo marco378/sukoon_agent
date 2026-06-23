@@ -13,14 +13,7 @@ export default function Login({ onLogin }) {
       <div className="w-full max-w-sm">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="mb-3">
-            <path d="M20 4c-4 0-7 2-9 5-1.5 2.5-1 5.5 1 7.5l8 8c2 2 2.5 5 1 7.5s-5 5-9 5" stroke="#6B21A8" strokeWidth="5" strokeLinecap="round" />
-            <path d="M20 36c4 0 7-2 9-5 1.5-2.5 1-5.5-1-7.5l-8-8c-2-2-2.5-5-1-7.5s5-5 9-5" stroke="#EA580C" strokeWidth="5" strokeLinecap="round" />
-          </svg>
-          <div className="text-center">
-            <h1 className="text-xl font-bold text-purple-800 tracking-tight uppercase">Sukoon</h1>
-            <span className="text-[11px] font-semibold text-orange-600 tracking-widest">INSURANCE</span>
-          </div>
+          <img src="/logo.png" alt="Sukoon Insurance" className="h-14 mb-3" />
           <p className="text-[13px] text-muted-foreground mt-2">Sign in to Agent Portal</p>
         </div>
 
