@@ -18,7 +18,7 @@ export default function Layout({ children, onLogout }) {
       {/* Sidebar */}
       <aside className="w-56 flex flex-col bg-sidebar border-r border-sidebar-border shrink-0">
         <div className="h-14 flex items-center px-4 border-b border-sidebar-border">
-          <img src="/logo.png" alt="Sukoon Insurance" className="h-10" />
+          <img src="/logo.png" alt="ABC Bank" className="h-10" />
         </div>
 
         <nav className="flex-1 px-2 py-2 space-y-0.5">
